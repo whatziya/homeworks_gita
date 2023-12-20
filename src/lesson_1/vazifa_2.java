@@ -23,8 +23,8 @@ public class vazifa_2 {
         }
         a = new String(aChar);
         b = new String(bChar);
-        a = a.toLowerCase().replaceAll("\\s", "");;
-        b = b.toLowerCase().replaceAll("\\s", "");;
+        a = a.toLowerCase().replaceAll("\\s", "");
+        b = b.toLowerCase().replaceAll("\\s", "");
         System.out.println(a.equals(b));
 
 
