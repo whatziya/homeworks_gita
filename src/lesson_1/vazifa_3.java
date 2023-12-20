@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class vazifa_3 {
     public static void main(String[] args){
-        String s = new String();
+        String s;
         Scanner scanner = new Scanner(System.in);
         s = scanner.nextLine();
         char[] sChar = s.toCharArray();
