@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class vazifa_3 {
     public static void main(String[] args){
-        String str = new String();
+        String s = new String();
         Scanner scanner = new Scanner(System.in);
-        str = scanner.nextLine();
-        char[] strChar = str.toCharArray();
+        s = scanner.nextLine();
+        char[] sChar = s.toCharArray();
         int res = 0;
-        for(char i : strChar){
+        for(char i : sChar){
             if(isVowel(i)){
                 res++;
             }
