@@ -28,7 +28,8 @@ public class vazifa_2 {
         System.out.println(a.equals(b));
 
 
-    }public static boolean isVowel(char c) {
+    }
+    public static boolean isVowel(char c) {
         char[] vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
         for (char vowel : vowels) {
             if (c == vowel) {
