@@ -74,7 +74,7 @@ public class ATM {
         atm.setMessageListener(message -> System.out.println("Xabar: " + message));
         atm.setShowMoneyInfoListener((amount, count) -> System.out.println(amount + " dan " + count + " ta"));
 
-        int requestedSum = 15_700;
+        int requestedSum = 10_000;
         atm.isGetMoney(requestedSum);
 
         System.out.println("Joriy balans: " + atm.getBalance());
