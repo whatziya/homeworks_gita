@@ -1,7 +1,4 @@
-package lesson_5;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package lesson_4;
 
 public class home9 {
     public static void main(String[] args) {
