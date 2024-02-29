@@ -2,17 +2,20 @@ package lesson_5;
 
 public class home1 {
     public static void main(String[] args) {
-        int[] a = {1,2,0,52,3,4,5};
-        int min = a[0];
-        int max = a[0];
-        for(int i: a){
-            if(i < min){
-                min = i;
+        int a = 3;
+        int b = 6;
+        System.out.print("[");
+        for (int i = a; i < b; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(i);
+                if (j < i - 1) {
+                    System.out.print(", ");
+                }
             }
-            if(i > max){
-                max = i;
+            if (i < b - 1) {
+                System.out.print(", ");
             }
         }
-        System.out.println(max + " " + min);
+        System.out.println("]");
     }
 }
